@@ -11,7 +11,8 @@ export class ProductListComponent {
         price: 789,
         color: 'Black',
         discount: 8.5,
-        inStock: 0
+        inStock: 5,
+        pImage: './assets/img/iphone.png'
     }
 
     getDiscountedPrice() {
